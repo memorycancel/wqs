@@ -2,10 +2,10 @@
 layout: default
 title: "Wrong Questions Set"
 ---
-[Wrong Questions Set](/)
+[Wrong Questions Set](/wqs/)
 
 GESP
-[202306 C++四级试题解析](/202306_cpp_4)
-[202309 C++四级](/202309_cpp_4)
-[202306 Python 四级真题解析](/202306_python_4)
-[202309 Python四级](/202309_python_4)
+[202306 C++四级试题解析](/wqs/202306_cpp_4)
+[202309 C++四级](/wqs/202309_cpp_4)
+[202306 Python 四级真题解析](/wqs/202306_python_4)
+[202309 Python四级](/wqs/202309_python_4)
