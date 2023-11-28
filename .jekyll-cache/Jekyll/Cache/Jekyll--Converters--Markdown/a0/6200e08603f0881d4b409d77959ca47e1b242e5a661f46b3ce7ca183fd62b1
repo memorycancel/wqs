@@ -1,0 +1,19 @@
+I"�<p><a href="/">Wrong Questions Set</a>
+202309 Python四级
+<a href="https://gesp.ccf.org.cn/101/attach/1570611870564384.pdf">https://gesp.ccf.org.cn/101/attach/1570611870564384.pdf</a></p>
+
+<p>GESP
+<a href="/202306_cpp_4">202306 C++四级</a>
+<a href="/202309_cpp_4">202309 C++四级</a>
+<a href="/202306_python_4">202306 Python四级</a>
+<a href="/202309_python_4">202309 Python四级</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6、下列关于C++语⾔中函数的叙述 ，正确的是（ ）。A.函数调用前必须定义。
+B.函数调用时必须提供足够的实际参数。
+C.函数定义前必须声明。
+D.函数声明只能写在函数调用前。
+【答案】B
+【考纲知识点】 函数的概念及使用
+【解析】本题属于考察计算机函数知识。函数调用时如果缺少实参将不能正确运行。
+</code></pre></div></div>
+:ET

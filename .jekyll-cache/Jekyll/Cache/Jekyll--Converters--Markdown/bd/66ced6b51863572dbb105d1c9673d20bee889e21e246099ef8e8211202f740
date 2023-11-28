@@ -1,0 +1,138 @@
+I"�<p><a href="/">Wrong Questions Set</a>
+202309 Python四级
+<a href="https://gesp.ccf.org.cn/101/attach/1570611870564384.pdf">https://gesp.ccf.org.cn/101/attach/1570611870564384.pdf</a></p>
+
+<p>GESP
+<a href="/202306_cpp_4">202306 C++四级</a>
+<a href="/202309_cpp_4">202309 C++四级</a>
+<a href="/202306_python_4">202306 Python四级</a>
+<a href="/202309_python_4">202309 Python四级</a></p>
+
+<p>一、选择题</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6、下列关于C++语⾔中函数的叙述 ，正确的是（ ）。
+A.函数调用前必须定义。 --不一定，比如printf()
+B.函数调用时必须提供足够的实际参数。
+C.函数定义前必须声明。 --是调用前而不是定义前
+D.函数声明只能写在函数调用前。--后面也可以
+【答案】B
+【考纲知识点】 函数的概念及使用
+【解析】本题属于考察计算机函数知识。
+函数调用时如果缺少实参将不能正确运行。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>8、⼀个二维数组定义为 char array[3][10]; ，
+则这个二维数组占用内存的大⼩为（ ）。
+A. 10
+B. 30
+C. 32
+D. 48
+【答案】B
+【考纲知识点】 二维数组知识
+【解析】本题属于考察C++二维字符数组知识。
+内存大小和数组需要用的空间有关。
+3行10列，需要3*10=30个空间，选B。
+array不算
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>9、如果n为int类型的变量，
+⼀个指针变量定义为int *p=&amp;n; ,则下列说法正确的是（ ）。
+A.指针变量p的值与变量n是相同
+B.指针变量p的值与变量n的地址是相同的。
+C.指针变量p指向的值为 'n'。
+D.指针变量p指向的值与变量n的地址是相同的。
+【答案】B
+【考纲知识点】 指针
+【解析】本题属于考察C++指针知识。
+指针的值保存的是变量的地址,所以选B。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10、⼀个三维数组定义为 long long array[6][6][6]; 
+，则array[1][2][3]和array[3][2][1]在内存中的 
+位置相差多少字节？( )
+A. 70字节
+B. 198字节
+C. 560字节
+D.无法确定
+【答案】C
+【考纲知识点】 三维数组
+【解析】本题属于考察C++三维数组知识。
+数组是long long类型，
+每间隔一下数字就间隔8个字节，假设三维数组用长宽高来描述，
+array[0][0][0]到array[0][5][5]有36个元素，
+array[1][2][3]包含36+12+4=52个元素；
+到长度3宽度2高度1，包括36*3+12+2=122个元素，
+隔离70个元素，因此长度是560，选C。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>11、如果 a 为 int 类型的变量，且 a 的值为6，
+则执⾏a = ~a; 之后，a的值会是（ ）。
+A. -6
+B. 6
+C. -7
+D. 7
+【答案】C
+【考纲知识点】 位运算
+【解析】本题属于考察C++位运算知识。6按位取反运算，
+注意符号位也取反，呈现的是补码，转换过来就是-7。
+具体过程：
+00000110（取反操作）
+11111001（补码）
+11111000（补码-1=反码）
+10000111（负数的原码，注意此时取反符号位不变）
+或
+6+1=7
+7*（-1）=-7
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>13、下列关于C++语言中异常处理的叙述，正确的是（）。
+A.⼀个try⼦句可以有多个catch⼦句与之对应。
+B.如果try⼦句在执⾏时发⽣异常 ，
+就⼀定会进⼊某⼀个catch⼦句执⾏。 -- 可能没catch到
+C.如果try⼦句中没有可能发⽣异常的语句 ，会产⽣编译错误。
+D. catch ⼦句处理异常后 ，会重新执⾏与之对应的try⼦句。
+【答案】A
+【考纲知识点】 异常处理
+【解析】本题属于考察C++处理异常知识。A是正确的。
+B选项中，得到对应类型中的异常才能catch操作。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>14、执⾏以下C++语⾔程序后，输出结果是（ ）。
+#include &lt;iostream&gt;
+using namespace std;
+int main()
+{
+	int fb[10];
+	....
+	....
+	cout&lt;&lt;fib[10];
+	return 0;
+}
+
+A. 0
+B. 5
+C. 55
+D. ⽆法确定。
+【答案】D
+【考纲知识点】 循环和一维数组的基本运用
+【解析】本题属于考察C++循环结构和一维数组的知识。
+这是求斐波那契数列的代码，数组的范围是[0,9]，
+所以对fib[10]操作后，越界访问结果无法确定。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6、在C++语⾔中 ，可以定义结构体类型的数组变量 ，
+定义结构体时也可以包含数组成员。
+【答案】正确
+【考纲知识点】 结构体
+【解析】本题是C++结构体的知识，可以包含数组。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4、在C++语⾔中 ，在函数调用时 ，
+通过引用传递的参数不会复制实际参数，
+因此不会额外占用内存。
+【答案】错误
+【考纲知识点】 函数
+【解析】本题是C++函数的知识，
+传参时函数的参数也会是一个新的变量，占用内存。
+</code></pre></div></div>
+:ET

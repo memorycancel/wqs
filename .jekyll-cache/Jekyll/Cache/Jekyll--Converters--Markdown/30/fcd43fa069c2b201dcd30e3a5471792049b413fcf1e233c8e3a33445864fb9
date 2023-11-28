@@ -1,0 +1,46 @@
+I"%<p><a href="/">Wrong Questions Set</a>
+202309 Python四级
+<a href="https://gesp.ccf.org.cn/101/attach/1570611870564384.pdf">https://gesp.ccf.org.cn/101/attach/1570611870564384.pdf</a></p>
+
+<p>GESP
+<a href="/202306_cpp_4">202306 C++四级</a>
+<a href="/202309_cpp_4">202309 C++四级</a>
+<a href="/202306_python_4">202306 Python四级</a>
+<a href="/202309_python_4">202309 Python四级</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6、下列关于C++语⾔中函数的叙述 ，正确的是（ ）。
+A.函数调用前必须定义。 --不一定，比如printf()
+B.函数调用时必须提供足够的实际参数。
+C.函数定义前必须声明。 --是调用前而不是定义前
+D.函数声明只能写在函数调用前。--后面也可以
+【答案】B
+【考纲知识点】 函数的概念及使用
+【解析】本题属于考察计算机函数知识。
+函数调用时如果缺少实参将不能正确运行。
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>8、⼀个二维数组定义为 char array[3][10]; ，
+则这个二维数组占用内存的大⼩为（ ）。
+A. 10
+B. 30
+C. 32
+D. 48
+【答案】B
+【考纲知识点】 二维数组知识
+【解析】本题属于考察C++二维字符数组知识。
+内存大小和数组需要用的空间有关。
+3行10列，需要3*10=30个空间，选B。
+array不算
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>9、如果n为int类型的变量，⼀个指针变量定义为int *p=&amp;n; ,则下列说法正确的是（ ）。
+A.指针变量p的值与变量n是相同
+B.指针变量p的值与变量n的地址是相同的。
+C.指针变量p指向的值为 'n'。
+D.指针变量p指向的值与变量n的地址是相同的。
+【答案】B
+【考纲知识点】 指针
+【解析】本题属于考察C++指针知识。
+指针的值保存的是变量的地址,所以选B。
+</code></pre></div></div>
+:ET
