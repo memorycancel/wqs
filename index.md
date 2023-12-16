@@ -9,3 +9,4 @@ GESP
 [202309 C++四级](/wqs/202309_cpp_4)
 [202306 Python 四级真题解析](/wqs/202306_python_4)
 [202309 Python四级](/wqs/202309_python_4)
+[202312 Python二级](/wqs/202312_python_2)
